@@ -11,5 +11,3 @@ __pycache__/
 leads/cache/
 nul
 NUL
-products/pocket-chip-kit/pack/
-products/**/*.zip
