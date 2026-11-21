@@ -12,7 +12,7 @@
       "Exec(mkdir)", "Exec(cp)", "Exec(mv)", "Exec(touch)", "Exec(echo)", "Exec(printf)", "Exec(sleep)",
       "Exec(date)", "Exec(pwd)", "Exec(cd)", "Exec(which)", "Exec(test)", "Exec(du)", "Exec(file)",
       "Exec(orca orchestration)", "Exec(orca skills get)", "Exec(orca terminal read)",
-      "Exec(\"$CHROME\")", "Exec(rm previews/_samples/_screens/)", "Exec(cargo)", "Exec(rustc)", "Exec(rustup)", "Exec(git clone)", "Exec(export PATH)", "Fetch(domain:*)"
+      "Exec(\"$CHROME\")", "Exec(rm previews/_samples/_screens/)", "Exec(rm -rf private/previews/)", "Exec(rm -rf private/outreach/shots/)", "Exec(cargo)", "Exec(rustc)", "Exec(rustup)", "Exec(git clone)", "Exec(export PATH)", "Fetch(domain:*)"
     ],
     "deny": [
       "Exec(git push --force)", "Exec(git push -f)", "Exec(git push --delete)", "Exec(git reset --hard)",
