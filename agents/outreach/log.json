@@ -22,5 +22,15 @@
       ],
       "built": 39
     }
+  },
+  {
+    "ts": "2026-11-21T19:00:46+10:00",
+    "agent": "outreach",
+    "kind": "progress",
+    "message": "Screenshots done via CDP at true 375px/1280px (headless --window-size min-width 500 forced a workaround); all 39 previews visually QA'd clean; batch-01 drafts, log.csv, sending_guide.md, cold_email variant D done",
+    "data": {
+      "shots": 78,
+      "drafts": 10
+    }
   }
 ]

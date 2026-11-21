@@ -30,7 +30,7 @@ h3{font-size:1.05rem}
 .hero .eyebrow{color:var(--accent-on-deep)}
 .hero .eyebrow::before{background:var(--accent-on-deep)}
 .lede{font-size:1.13rem;color:var(--deep-muted);max-width:34em;margin:14px 0 30px}
-.btn{display:inline-flex;align-items:center;gap:.5em;padding:13px 26px;border-radius:var(--btn-radius);font-weight:700;font-size:1rem;text-decoration:none;border:2px solid transparent;transition:transform .15s ease,box-shadow .15s ease}
+.btn{display:inline-flex;align-items:center;gap:.5em;padding:13px 26px;border-radius:var(--btn-radius);font-weight:700;font-size:1rem;text-decoration:none;border:2px solid transparent;transition:transform .15s ease,box-shadow .15s ease;max-width:100%;min-width:0;overflow-wrap:anywhere;text-align:center}
 .btn-primary{background:var(--accent-bg);color:var(--accent-ink)}
 .btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgb(0 0 0/.22)}
 .btn-ghost{border-color:var(--deep-muted);color:var(--deep-ink);background:transparent}
@@ -51,7 +51,7 @@ nav{display:flex;align-items:center;gap:22px}
 nav a{color:var(--ink);text-decoration:none;font-size:.93rem;font-weight:600}
 nav a:hover{color:var(--accent)}
 nav .btn{padding:9px 18px;font-size:.9rem}
-@media(max-width:640px){nav a.navlink{display:none}}
+@media(max-width:640px){nav a.navlink{display:none}nav .btn{display:none}}
 /* hero */
 .hero{background:var(--deep);color:var(--deep-ink);padding:76px 0 84px;overflow:hidden}
 .hero-grid{display:grid;grid-template-columns:1.02fr .98fr;gap:56px;align-items:center}

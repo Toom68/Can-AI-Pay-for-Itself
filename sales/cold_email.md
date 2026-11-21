@@ -86,6 +86,33 @@ Brissie Sites
 
 ---
 
+## Variant D — screenshot attached (use while previews aren't hosted)
+
+Use this one when there's no live link to send: attach the two screenshots
+(`{{slug}}-mobile.png` and `{{slug}}-desktop.png`) instead of a URL.
+
+**Subject:** A website idea for {{business}}
+
+Hi {{greeting_name}},
+
+I'm Thomas — I run Brissie Sites, a small student-run web studio in Brisbane.
+{{personal_note}}
+
+I couldn't find a website for {{business}}, so I built one — two screenshots
+are attached (phone and computer).
+
+If you like it, it's yours for A$249, including setup and connecting your
+domain. You own the site outright.
+
+I found your email on {{email_source}}. If you'd rather not hear from me,
+just reply 'no thanks' and I won't contact you again.
+
+Thomas
+Brissie Sites
+brissiesites@gmail.com
+
+---
+
 ## Rules for all variants
 - One email per business, sent by hand — never bulk, never automated.
 - Keep the opt-out line exactly as written; honour it instantly and permanently.
