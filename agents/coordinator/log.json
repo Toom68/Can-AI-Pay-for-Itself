@@ -127,5 +127,11 @@
     "agent": "coordinator",
     "kind": "result",
     "message": "cadence 1.1.0 Windows build packaged (3.9 MB zip), smoke-tested, listing copy ready in products/cadence/LISTING.md."
+  },
+  {
+    "ts": "2026-11-21T18:47:36+10:00",
+    "agent": "coordinator",
+    "kind": "note",
+    "message": "Shutting off (temporary) at Thomas's request. State saved in ops/STATE.md; outreach worker left running mid-task."
   }
 ]

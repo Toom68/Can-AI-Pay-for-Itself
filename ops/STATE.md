@@ -46,22 +46,33 @@ Deadline: 2026-12-21 | Target: US$200 (~A$310), internal A$400
 - [ ] Before the first invoice: register the brand name (~A$44/yr + free ABN) or invoice in
       own name.
 
-## Next actions (coordinator)
-1. Apply the brand to `sitegen/config.json` + studio site; rebuild the 40 previews.
-2. Host previews publicly (brand GitHub org + Pages, noindex), deploy studio site.
-3. Draft the first 10 personalised emails (`private/outreach/`) for Thomas to send.
-4. Council review of the plan (free models).
+## Shutdown snapshot (2026-11-21, "shut off, temporarily")
+- outreach worker (task_87853c5a4bd8, terminal term_4e08457c...) was mid-task: brand applied,
+  previews rebuilt (39 after dropping Pure Shot Cafe, renamed), screenshots in progress, batch-01
+  drafts not yet written. If the PC was turned off it died; its files are in `private/outreach/`.
+- All other workers finished. Nothing is waiting on a worker prompt.
+
+## Next actions (coordinator) — on "turning on"
+1. `orca orchestration check --run run_fe71059351c2` and `orca orchestration worker-list`.
+2. If outreach didn't report worker_done: check `private/outreach/` for `batch-01.md/json`,
+   `log.csv`, `shots/`; relaunch with `bash ops/tools/launch_worker.sh outreach` and tell it to
+   resume (skip steps already done).
+3. Review batch-01 drafts, then hand them to Thomas to send (max 10/day).
+4. When Thomas finishes cadence changes: rebuild + refresh listing (see Decisions).
+5. When GitHub's restriction lifts: org `brissiesites` + Pages hosting for live previews.
+6. Council review of the plan (free models).
 
 ## Token burn
 <!-- tokens:start -->
-_Updated 2026-11-21T18:19:56+10:00 by `python ops/tools/token_report.py` (JSON: `ops/tokens.json`)._
+_Updated 2026-11-21T18:47:35+10:00 by `python ops/tools/token_report.py` (JSON: `ops/tokens.json`)._
 
 | Agent | Model(s) | Calls | Input | Cached input | Output | Quota cost (US$) |
 |-------|----------|------:|------:|-------------:|-------:|-----------------:|
 | brand | swe-2-max (free) | 132 | 418k | 8.42M | 93k | 0.00 |
-| coordinator | claude-opus-5-5-xhigh | 227 | 570k | 45.41M | 241k | 16.17 |
+| coordinator | claude-opus-5-5-xhigh | 301 | 1.22M | 68.10M | 291k | 24.31 |
 | leads | swe-2-max (free), compactor | 118 | 922k | 10.46M | 111k | 0.00 |
-| products | swe-2-max (free) | 69 | 167k | 5.39M | 92k | 0.00 |
+| outreach | swe-2-max (free) | 69 | 169k | 6.23M | 97k | 0.00 |
+| products | swe-2-max (free) | 131 | 215k | 13.76M | 124k | 0.00 |
 | sitegen | swe-2-max (free) | 155 | 421k | 14.53M | 139k | 0.00 |
-| **Total** | | 701 | 2.50M | 84.22M | 676k | **16.17** |
+| **Total** | | 906 | 3.36M | 121.51M | 856k | **24.31** |
 <!-- tokens:end -->
