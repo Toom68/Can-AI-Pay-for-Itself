@@ -24,14 +24,15 @@ Deadline: 2026-12-21 | Target: US$200 (~A$310), internal A$400
   - products: **Pocket Chip Kit** chiptune pack (82 WAV + 12 MIDI) ready to list on itch.io;
     worker's odds of meaningful sales this month ~7-12%. cadence paid build needs Rust.
 
+## Decisions made
+- 2026-11-21: target confirmed **US$200 (A$310)**. Rust toolchain install approved (for cadence
+  builds). Thomas sets up itch.io himself (payouts must go to a parent's PayPal: 18+).
+
 ## Waiting on Thomas
-- [ ] Pick the brand: Brissie Sites / Jacaranda Web / Bunya Web.
-- [ ] Confirm target currency (assumed US$200 = ~A$310).
+- [ ] Confirm brand **Brissie Sites** and create `brissiesites@gmail.com` (fallback
+      `hello.brissiesites@gmail.com`) + GitHub org `brissiesites`; tell coordinator the result.
+- [ ] Create the itch.io account; link a parent's PayPal for "Direct to you" payouts.
 - [ ] Coordinator cost: switch this session to `/model swe-2-max` for routine supervision?
-- [ ] Approve installing the Rust toolchain (for cadence builds)?
-- [ ] Parent: free itch.io account + PayPal ("Direct to you") to list Pocket Chip Kit.
-- [ ] Once the brand is picked: create brand Gmail + GitHub org (free, ~5 min) for outreach
-      and preview hosting.
 - [ ] Before the first invoice: register the brand name (~A$44/yr + free ABN) or invoice in
       own name.
 
