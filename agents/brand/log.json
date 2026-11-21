@@ -37,5 +37,29 @@
       },
       "samples_linked": 6
     }
+  },
+  {
+    "ts": "2026-11-21T18:15:45+10:00",
+    "agent": "brand",
+    "kind": "done",
+    "message": "All deliverables complete and pushed: names.md (8 candidates w/ evidence, top3: Brissie Sites/Jacaranda Web/Bunya Web), kit.md+logo.svg, studio-site verified at 375+1280px, 7 sales files",
+    "data": {
+      "recommended_name": "Brissie Sites",
+      "alternates": [
+        "Jacaranda Web",
+        "Bunya Web"
+      ],
+      "verified": {
+        "375px": "no overflow sw=iw=375",
+        "1280px": "rendered ok"
+      },
+      "screens": 6,
+      "decisions_for_thomas": [
+        "pick name",
+        "create gmail+github org",
+        "swap contact email",
+        "register domain/ABN later"
+      ]
+    }
   }
 ]
