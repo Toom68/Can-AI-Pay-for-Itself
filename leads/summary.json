@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-11-21T08:12:17+00:00",
+  "totals": {
+    "fetched": 9454,
+    "candidates_without_website_tag": 6246,
+    "checked": 74,
+    "qualified": 40,
+    "phone_only": 18
+  },
+  "qualified_by_category": {
+    "beauty": 6,
+    "trades": 2,
+    "automotive": 2,
+    "health": 2,
+    "retail_services": 6,
+    "food": 22
+  },
+  "qualified_by_suburb": {
+    "Stafford": 3,
+    "Brendale": 2,
+    "Bundamba": 2,
+    "Annerley": 2,
+    "Ipswich": 2,
+    "Lamb Island": 2,
+    "Fortitude Valley": 2,
+    "Brookfield": 1,
+    "Hawthorne": 1,
+    "Bulimba": 1,
+    "Underwood": 1,
+    "Loganholme": 1,
+    "Jimboomba": 1,
+    "Woodford": 1,
+    "Ashgrove": 1,
+    "Runcorn": 1,
+    "Tamborine Mountain": 1,
+    "Fairfield": 1,
+    "Eight Mile Plains": 1,
+    "Kelvin Grove": 1,
+    "Bongaree": 1,
+    "Thornlands": 1,
+    "Woolloongabba": 1,
+    "Acacia Ridge": 1,
+    "Dayboro": 1,
+    "Deception Bay": 1,
+    "Caboolture": 1,
+    "Woodridge": 1,
+    "Kedron": 1,
+    "Hamilton": 1,
+    "Dutton Park": 1,
+    "West End": 1
+  },
+  "qualified_by_website_status": {
+    "broken": 3,
+    "facebook_only": 31,
+    "none": 6
+  },
+  "score_histogram": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 5,
+    "6": 10,
+    "7": 17,
+    "8": 8,
+    "9": 0,
+    "10": 0
+  },
+  "attribution": "Contains data © OpenStreetMap contributors, ODbL"
+}

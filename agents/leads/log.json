@@ -25,5 +25,30 @@
         "retail_services": 903
       }
     }
+  },
+  {
+    "ts": "2026-11-21T18:12:34+10:00",
+    "agent": "leads",
+    "kind": "result",
+    "message": "enrichment done: 74 checked, 40 qualified w/ verified public email, 18 phone-only",
+    "data": {
+      "checked": 74,
+      "qualified": 40,
+      "phone_only": 18,
+      "by_status": {
+        "broken": 3,
+        "facebook_only": 31,
+        "none": 6
+      }
+    }
+  },
+  {
+    "ts": "2026-11-21T18:12:37+10:00",
+    "agent": "leads",
+    "kind": "done",
+    "message": "leads.csv: 40 qualified, 18 phone_only; summary.json + README committed",
+    "data": {
+      "qualified": 40
+    }
   }
 ]
