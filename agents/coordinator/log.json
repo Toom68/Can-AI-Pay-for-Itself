@@ -88,5 +88,11 @@
     "agent": "coordinator",
     "kind": "note",
     "message": "Rejected products worker's winget install of Rustup (system install needs Thomas's OK). Reverted an accidental global Devin config change (Fetch allow) and moved it into the project config."
+  },
+  {
+    "ts": "2026-11-21T18:16:22+10:00",
+    "agent": "coordinator",
+    "kind": "result",
+    "message": "brand worker done: recommends Brissie Sites (alternates Jacaranda Web, Bunya Web); studio site + 7 sales files complete. Awaiting Thomas's pick."
   }
 ]
