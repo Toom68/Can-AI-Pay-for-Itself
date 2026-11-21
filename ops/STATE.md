@@ -47,32 +47,37 @@ Deadline: 2026-12-21 | Target: US$200 (~A$310), internal A$400
       own name.
 
 ## Shutdown snapshot (2026-11-21, "shut off, temporarily")
-- outreach worker (task_87853c5a4bd8, terminal term_4e08457c...) was mid-task: brand applied,
-  previews rebuilt (39 after dropping Pure Shot Cafe, renamed), screenshots in progress, batch-01
-  drafts not yet written. If the PC was turned off it died; its files are in `private/outreach/`.
-- All other workers finished. Nothing is waiting on a worker prompt.
+- outreach worker FINISHED while Thomas was away: Brissie Sites branding applied, 39 previews
+  QA'd (Pure Shot Cafe dropped: renamed), phone + desktop screenshots for all, batch-01 = 10
+  drafts in `private/outreach/batch-01.md` (+ .json, `log.csv`, `sales/sending_guide.md`).
+- Coordinator review of batch-01: all 10 have sender ID, source line, opt-out, ~95-100 words.
+  **6 ready to send** (sources: Cylex listing / OpenStreetMap): Diateq, Jack's Barber, SAKAZ
+  Customs, Monster Tyres, Rami's Thunder Martial Arts, Mana Souvlaki.
+  **4 on hold** (email only found via exa.ai, an aggregator, not published by the business):
+  Brookfield Hair Studio, Mayfair Nails, Stafford Tattoo, Aloha Hound. Send only after
+  confirming the address on the business's own Facebook/Google/Instagram page, and change the
+  "I found your email on..." line to that page.
+- No workers running.
 
 ## Next actions (coordinator) — on "turning on"
 1. `orca orchestration check --run run_fe71059351c2` and `orca orchestration worker-list`.
-2. If outreach didn't report worker_done: check `private/outreach/` for `batch-01.md/json`,
-   `log.csv`, `shots/`; relaunch with `bash ops/tools/launch_worker.sh outreach` and tell it to
-   resume (skip steps already done).
-3. Review batch-01 drafts, then hand them to Thomas to send (max 10/day).
+2. Thomas sends the 6 ready emails (max 10/day) and marks `private/outreach/log.csv`.
+3. Confirm/fix the 4 held emails (Thomas checks the businesses' own pages in his browser).
 4. When Thomas finishes cadence changes: rebuild + refresh listing (see Decisions).
 5. When GitHub's restriction lifts: org `brissiesites` + Pages hosting for live previews.
 6. Council review of the plan (free models).
 
 ## Token burn
 <!-- tokens:start -->
-_Updated 2026-11-21T18:47:35+10:00 by `python ops/tools/token_report.py` (JSON: `ops/tokens.json`)._
+_Updated 2026-11-21T19:02:12+10:00 by `python ops/tools/token_report.py` (JSON: `ops/tokens.json`)._
 
 | Agent | Model(s) | Calls | Input | Cached input | Output | Quota cost (US$) |
 |-------|----------|------:|------:|-------------:|-------:|-----------------:|
 | brand | swe-2-max (free) | 132 | 418k | 8.42M | 93k | 0.00 |
-| coordinator | claude-opus-5-5-xhigh | 301 | 1.22M | 68.10M | 291k | 24.31 |
+| coordinator | claude-opus-5-5-xhigh | 343 | 1.25M | 82.35M | 305k | 27.57 |
 | leads | swe-2-max (free), compactor | 118 | 922k | 10.46M | 111k | 0.00 |
-| outreach | swe-2-max (free) | 69 | 169k | 6.23M | 97k | 0.00 |
+| outreach | swe-2-max (free) | 187 | 461k | 23.32M | 181k | 0.00 |
 | products | swe-2-max (free) | 131 | 215k | 13.76M | 124k | 0.00 |
 | sitegen | swe-2-max (free) | 155 | 421k | 14.53M | 139k | 0.00 |
-| **Total** | | 906 | 3.36M | 121.51M | 856k | **24.31** |
+| **Total** | | 1066 | 3.69M | 152.85M | 952k | **27.57** |
 <!-- tokens:end -->

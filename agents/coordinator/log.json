@@ -133,5 +133,16 @@
     "agent": "coordinator",
     "kind": "note",
     "message": "Shutting off (temporary) at Thomas's request. State saved in ops/STATE.md; outreach worker left running mid-task."
+  },
+  {
+    "ts": "2026-11-21T19:02:09+10:00",
+    "agent": "coordinator",
+    "kind": "result",
+    "message": "outreach worker done: 39 branded previews + screenshots, batch-01 (10 drafts). Review: 6 ready (Cylex/OSM-sourced emails); 4 held because the email was only found via exa.ai, not on the business's own page.",
+    "data": {
+      "ready": 6,
+      "held": 4,
+      "previews": 39
+    }
   }
 ]
