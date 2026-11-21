@@ -100,5 +100,14 @@
     "agent": "coordinator",
     "kind": "result",
     "message": "products worker done: Pocket Chip Kit (82 WAV + 12 MIDI chiptune pack) ready to list on itch.io; worker estimates ~7-12% odds of meaningful sales this month. Needs a parent-owned itch.io + PayPal account. cadence build blocked pending Rust install approval."
+  },
+  {
+    "ts": "2026-11-21T18:19:53+10:00",
+    "agent": "coordinator",
+    "kind": "result",
+    "message": "All round-1 workers done. sitegen: generator + 6 samples, Lighthouse 100s; built all 40 real previews into private/previews (avg 16.7 KB). Next: brand pick, hosting, first outreach drafts.",
+    "data": {
+      "real_previews": 40
+    }
   }
 ]
