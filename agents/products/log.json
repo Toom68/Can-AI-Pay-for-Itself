@@ -45,5 +45,11 @@
       "midi": 12,
       "zip_kb": 2776
     }
+  },
+  {
+    "ts": "2026-11-21T18:16:13+10:00",
+    "agent": "products",
+    "kind": "done",
+    "message": "Task complete: research.md (14 channels, evidence-linked), plan.md (pick1 pocket-chip-kit itch+Bandcamp US.99 PWYW ready-to-list; pick2 cadence build runbook blocked on rustup approval), pack built+verified (82 wav+12 mid, zip 2.7MB). Parent must: create itch account, connect PayPal, upload zip+copy (~20min). Optional Bandcamp/Gumroad mirrors. Combined P(>=A0 by Dec21) ~10-16% if cadence also ships, ~7-12% pack alone."
   }
 ]
