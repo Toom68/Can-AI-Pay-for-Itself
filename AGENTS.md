@@ -95,7 +95,10 @@ Several workers share ONE worktree and ONE local branch, which pushes to `main`.
 - **"turning on"**: read `ops/STATE.md`, then `orca orchestration run-list` / `worker-list` and
   resume the "Next actions" list. Re-launch stopped workers from `ops/specs/`.
 - **"shutting off"**: publish transcripts (`python ops/tools/publish_transcript.py --all`),
-  update `ops/STATE.md`, commit and push, and let workers settle or stop them cleanly.
+  refresh token burn (`python ops/tools/token_report.py`), update `ops/STATE.md`, commit and
+  push, and let workers settle or stop them cleanly.
+- Token burn (every agent, incl. the coordinator) is tracked from Devin's local session store:
+  `python ops/tools/token_report.py` writes `ops/tokens.json` and the table in `ops/STATE.md`.
 
 ## Verification
 - Static sites: serve locally, check 375px and 1280px widths, no console errors, links work.

@@ -65,5 +65,28 @@
         "products": "task_59cdb1eff398"
       }
     }
+  },
+  {
+    "ts": "2026-11-21T18:14:03+10:00",
+    "agent": "coordinator",
+    "kind": "result",
+    "message": "leads worker done: 40 qualified leads (31 facebook_only, 6 none, 3 broken) + 18 phone-only, from 9,454 OSM objects / 74 checked.",
+    "data": {
+      "qualified": 40,
+      "phone_only": 18,
+      "checked": 74
+    }
+  },
+  {
+    "ts": "2026-11-21T18:14:03+10:00",
+    "agent": "coordinator",
+    "kind": "decision",
+    "message": "Added token tracking (ops/tools/token_report.py -> ops/tokens.json + STATE.md table) at Thomas's request. First reading: coordinator on claude-opus-5-5-xhigh ~US$12 quota-equivalent; all workers free."
+  },
+  {
+    "ts": "2026-11-21T18:14:04+10:00",
+    "agent": "coordinator",
+    "kind": "note",
+    "message": "Rejected products worker's winget install of Rustup (system install needs Thomas's OK). Reverted an accidental global Devin config change (Fetch allow) and moved it into the project config."
   }
 ]

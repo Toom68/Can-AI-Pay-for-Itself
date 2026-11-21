@@ -27,3 +27,17 @@ Deadline: 2026-12-21 | Target: US$200 (~A$310), internal A$400
 2. Council review of the plan (free models).
 3. Pick the brand, build the first 5 real previews, draft the first 5 emails for Thomas.
 4. Decide where real previews are hosted publicly (brand GitHub org + Pages, or similar).
+
+## Token burn
+<!-- tokens:start -->
+_Updated 2026-11-21T18:14:06+10:00 by `python ops/tools/token_report.py` (JSON: `ops/tokens.json`)._
+
+| Agent | Model(s) | Calls | Input | Cached input | Output | Quota cost (US$) |
+|-------|----------|------:|------:|-------------:|-------:|-----------------:|
+| brand | swe-2-max (free) | 115 | 413k | 6.60M | 85k | 0.00 |
+| coordinator | claude-opus-5-5-xhigh | 177 | 511k | 31.45M | 221k | 12.74 |
+| leads | swe-2-max (free), compactor | 118 | 922k | 10.46M | 111k | 0.00 |
+| products | swe-2-max (free) | 39 | 152k | 2.18M | 59k | 0.00 |
+| sitegen | swe-2-max (free) | 80 | 337k | 5.52M | 107k | 0.00 |
+| **Total** | | 529 | 2.33M | 56.21M | 583k | **12.74** |
+<!-- tokens:end -->

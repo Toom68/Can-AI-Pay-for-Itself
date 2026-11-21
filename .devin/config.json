@@ -11,7 +11,8 @@
       "Exec(uniq)", "Exec(cut)", "Exec(tr)", "Exec(grep)", "Exec(rg)", "Exec(sed)", "Exec(awk)", "Exec(jq)",
       "Exec(mkdir)", "Exec(cp)", "Exec(mv)", "Exec(touch)", "Exec(echo)", "Exec(printf)", "Exec(sleep)",
       "Exec(date)", "Exec(pwd)", "Exec(cd)", "Exec(which)", "Exec(test)", "Exec(du)", "Exec(file)",
-      "Exec(orca orchestration)", "Exec(orca skills get)", "Exec(orca terminal read)"
+      "Exec(orca orchestration)", "Exec(orca skills get)", "Exec(orca terminal read)",
+      "Exec(\"$CHROME\")", "Fetch(domain:*)"
     ],
     "deny": [
       "Exec(git push --force)", "Exec(git push -f)", "Exec(git push --delete)", "Exec(git reset --hard)",
