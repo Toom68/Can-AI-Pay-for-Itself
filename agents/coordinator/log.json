@@ -121,5 +121,11 @@
     "agent": "coordinator",
     "kind": "decision",
     "message": "Brand Brissie Sites + brissiesites@gmail.com confirmed. GitHub restricted Thomas's account for automated activity: agents now push once per task. First outreach uses screenshots; launched outreach worker (task_87853c5a4bd8) to brand previews, screenshot them and draft batch 01."
+  },
+  {
+    "ts": "2026-11-21T18:38:21+10:00",
+    "agent": "coordinator",
+    "kind": "result",
+    "message": "cadence 1.1.0 Windows build packaged (3.9 MB zip), smoke-tested, listing copy ready in products/cadence/LISTING.md."
   }
 ]
