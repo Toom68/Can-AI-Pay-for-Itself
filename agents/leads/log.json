@@ -1,0 +1,29 @@
+[
+  {
+    "ts": "2026-11-21T17:52:39+10:00",
+    "agent": "leads",
+    "kind": "start",
+    "message": "Build OSM fetcher for Brisbane businesses without websites, enrich via web search, produce scored leads.csv (target 40+ with public emails)"
+  },
+  {
+    "ts": "2026-11-21T18:01:59+10:00",
+    "agent": "leads",
+    "kind": "result",
+    "message": "OSM fetch complete",
+    "data": {
+      "fetched": 9454,
+      "kept": 6294,
+      "with_phone": 432,
+      "with_email": 46,
+      "with_facebook": 153,
+      "by_group": {
+        "trades": 183,
+        "automotive": 357,
+        "beauty": 907,
+        "food": 3395,
+        "health": 549,
+        "retail_services": 903
+      }
+    }
+  }
+]
