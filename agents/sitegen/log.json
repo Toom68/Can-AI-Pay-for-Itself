@@ -40,5 +40,29 @@
     "agent": "sitegen",
     "kind": "decision",
     "message": "personalisation_notes not rendered on pages (outreach material, not site copy); hours unparseable -> raw text, never invented; map = OSM embed when lat/lon present else search/osm_id link"
+  },
+  {
+    "ts": "2026-11-21T18:19:09+10:00",
+    "agent": "sitegen",
+    "kind": "done",
+    "message": "6 sample previews + gallery built and pushed; screenshots at previews/_samples/_screens; Lighthouse sold build 100/100/100/100, preview build SEO60 (noindex by design)",
+    "data": {
+      "commands": [
+        "node sitegen/build.mjs --json sitegen/samples.json --all --out previews/_samples --gallery",
+        "node sitegen/screens.mjs --url http://127.0.0.1:8987/_samples/"
+      ],
+      "lighthouse_sold": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lighthouse_preview": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 60
+      }
+    }
   }
 ]
