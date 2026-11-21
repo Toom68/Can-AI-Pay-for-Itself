@@ -67,5 +67,11 @@
       "zip_bytes": 4075908,
       "exe_bytes": 10135040
     }
+  },
+  {
+    "ts": "2026-11-21T18:36:31+10:00",
+    "agent": "products",
+    "kind": "done",
+    "message": "Pick 2 complete: Cadence-1.1.0-windows-x64.zip (4.0MB) in products/cadence with screenshot.png + cover.png + LISTING.md + BUILD-NOTES.md; exe verified headless (demo render) and GUI (opened, screenshot, closed). Thomas: upload zip on itch.io as Tool/Windows, US PWYW, Direct-to-you PayPal."
   }
 ]
