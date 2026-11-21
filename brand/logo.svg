@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 120" role="img" aria-labelledby="logo-title logo-desc">
+  <title id="logo-title">Brissie Sites</title>
+  <desc id="logo-desc">A mango-orange sun rising over river waves inside a teal circle, beside the lowercase words "brissie sites".</desc>
+  <!-- Mark: sun over river waves in a teal roundel -->
+  <g>
+    <circle cx="60" cy="60" r="52" fill="#0E7C7B"/>
+    <circle cx="60" cy="50" r="15" fill="#F28C28"/>
+    <path d="M24 66 q9.5 -9 19 0 t19 0 t19 0 t19 0" stroke="#F4EFE6" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M32 83 q8 -7.5 14 0 t14 0 t14 0 t14 0" stroke="#F4EFE6" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.72"/>
+  </g>
+  <!-- Wordmark: system font stack, easy to swap -->
+  <text x="130" y="79"
+        font-family="system-ui, 'Segoe UI', 'Avenir Next', 'Helvetica Neue', Arial, sans-serif"
+        font-size="46" font-weight="800" letter-spacing="-1.8" fill="#17323C">brissie<tspan dx="9" font-weight="700" fill="#0E7C7B">sites</tspan></text>
+</svg>

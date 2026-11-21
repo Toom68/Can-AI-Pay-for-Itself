@@ -19,5 +19,23 @@
       },
       "stormbird_abn_results": 1309
     }
+  },
+  {
+    "ts": "2026-11-21T18:13:41+10:00",
+    "agent": "brand",
+    "kind": "progress",
+    "message": "Built brand kit+logo, studio one-pager (verified 375px no-overflow + 1280px, screens saved), full sales kit (6 files), portfolio links aligned to real sitegen slugs",
+    "data": {
+      "recommended": "Brissie Sites",
+      "alternates": [
+        "Jacaranda Web",
+        "Bunya Web"
+      ],
+      "site_pages_bytes": {
+        "html": 12979,
+        "css": 8134
+      },
+      "samples_linked": 6
+    }
   }
 ]
