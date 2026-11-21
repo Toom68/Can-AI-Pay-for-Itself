@@ -5,6 +5,7 @@
       "Exec(node)", "Exec(npm)", "Exec(npx)", "Exec(pnpm)",
       "Exec(git add)", "Exec(git commit)", "Exec(git push)", "Exec(git status)", "Exec(git diff)",
       "Exec(git log)", "Exec(git show)", "Exec(git rev-parse)", "Exec(git ls-files)", "Exec(git pull)",
+      "Exec(git --version)", "Exec(git branch)", "Exec(git remote -v)", "Exec(git check-ignore)",
       "Exec(gh repo view)", "Exec(gh api users)", "Exec(gh api repos)", "Exec(gh auth status)",
       "Exec(curl)", "Exec(ls)", "Exec(cat)", "Exec(head)", "Exec(tail)", "Exec(wc)", "Exec(sort)",
       "Exec(uniq)", "Exec(cut)", "Exec(tr)", "Exec(grep)", "Exec(rg)", "Exec(sed)", "Exec(awk)", "Exec(jq)",

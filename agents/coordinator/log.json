@@ -51,5 +51,19 @@
     "agent": "coordinator",
     "kind": "note",
     "message": "First leads worker stalled on a permission prompt in smart mode; stopped it and added a project allow/deny list in .devin/config.json before relaunching all workers."
+  },
+  {
+    "ts": "2026-11-21T18:08:21+10:00",
+    "agent": "coordinator",
+    "kind": "progress",
+    "message": "Relaunched all four workers on swe-2-max via ops/tools/launch_worker.sh (JSON transcript export to private/transcripts/). Approved two read-only prompts (env inspection, name-availability lookups) and widened the allow list.",
+    "data": {
+      "workers": {
+        "leads": "task_8d0229c4e165",
+        "sitegen": "task_287d0c8ab320",
+        "brand": "task_8303d1d9aeb7",
+        "products": "task_59cdb1eff398"
+      }
+    }
   }
 ]
