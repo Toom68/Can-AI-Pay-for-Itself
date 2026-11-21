@@ -1,0 +1,44 @@
+[
+  {
+    "ts": "2026-11-21T17:56:30+10:00",
+    "agent": "sitegen",
+    "kind": "start",
+    "message": "Build zero-dep Node generator (CSV/JSON -> themed one-page previews), 6 themes, samples + gallery, verify weight/responsive"
+  },
+  {
+    "ts": "2026-11-21T18:18:46+10:00",
+    "agent": "sitegen",
+    "kind": "progress",
+    "message": "Generator built: build.mjs + csv/hours/themes/page libs; 6 themes; samples+gallery render; --sold path verified",
+    "data": {
+      "pages_kb": [
+        18.6,
+        17.6,
+        17.0,
+        18.8,
+        18.5,
+        17.8
+      ],
+      "themes": [
+        "trades",
+        "beauty",
+        "food",
+        "automotive",
+        "wellness",
+        "generic"
+      ]
+    }
+  },
+  {
+    "ts": "2026-11-21T18:18:47+10:00",
+    "agent": "sitegen",
+    "kind": "result",
+    "message": "Lighthouse: preview build P99/A100/BP100/SEO60 (noindex by design); sold build 100/100/100/100; fixed 2 contrast fails (eyebrow-on-hero, footer note opacity)"
+  },
+  {
+    "ts": "2026-11-21T18:18:47+10:00",
+    "agent": "sitegen",
+    "kind": "decision",
+    "message": "personalisation_notes not rendered on pages (outreach material, not site copy); hours unparseable -> raw text, never invented; map = OSM embed when lat/lon present else search/osm_id link"
+  }
+]
