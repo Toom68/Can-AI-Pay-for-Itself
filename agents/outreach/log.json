@@ -32,5 +32,17 @@
       "shots": 78,
       "drafts": 10
     }
+  },
+  {
+    "ts": "2026-11-21T19:00:55+10:00",
+    "agent": "outreach",
+    "kind": "done",
+    "message": "Task complete: 39 branded previews rebuilt+QA'd, 78 screenshots, batch-01 10 drafts (md+json), log.csv, sending_guide.md, cold_email variant D, followups screenshot variant. Dropped pure-shot-cafe (renamed).",
+    "data": {
+      "previews": 39,
+      "shots": 78,
+      "drafts": 10,
+      "dropped": 1
+    }
   }
 ]
