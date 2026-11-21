@@ -1,0 +1,55 @@
+[
+  {
+    "ts": "2026-11-21T17:51:16+10:00",
+    "agent": "coordinator",
+    "kind": "start",
+    "message": "Coordinator (Devin CLI, claude-opus-5-5-xhigh) took the brief: earn US$200 by 2026-12-21 with ~$0 startup cost, mostly hands-off."
+  },
+  {
+    "ts": "2026-11-21T17:51:17+10:00",
+    "agent": "coordinator",
+    "kind": "decision",
+    "message": "Verified free worker models swe-2-max / swe-2-flash-max; workers launched with explicit --model because Devin's default model is paid.",
+    "data": {
+      "free_models": [
+        "swe-2-max",
+        "swe-2-flash-max",
+        "swe-2-high",
+        "swe-2-flash-high"
+      ]
+    }
+  },
+  {
+    "ts": "2026-11-21T17:51:17+10:00",
+    "agent": "coordinator",
+    "kind": "decision",
+    "message": "Rejected as primary: OSS bounties (many projects ban autonomous AI PRs; reputation risk), AI-agent job marketplaces (TaskBounty feed had 0 open tasks; Obrari needs a paid API key), Apify-first (pays the following month).",
+    "data": {
+      "taskbounty_open_tasks": 0
+    }
+  },
+  {
+    "ts": "2026-11-21T17:51:18+10:00",
+    "agent": "coordinator",
+    "kind": "decision",
+    "message": "Chosen with Thomas: (1) Brisbane web studio: free preview sites + personalised, Spam-Act-compliant emails sent by hand; (2) hands-off products in the background. New brand name; ~30 min/day from Thomas; payments by bank transfer."
+  },
+  {
+    "ts": "2026-11-21T17:51:18+10:00",
+    "agent": "coordinator",
+    "kind": "decision",
+    "message": "Repo is public: prospects' contact details, real-business previews, opt-outs and raw transcripts live in gitignored private/; published transcripts are redacted (emails, phones, tokens)."
+  },
+  {
+    "ts": "2026-11-21T17:51:19+10:00",
+    "agent": "coordinator",
+    "kind": "progress",
+    "message": "Built ops/tools/agentlog.py (JSON work logs) and ops/tools/publish_transcript.py (redacted ATIF transcripts); self-tested."
+  },
+  {
+    "ts": "2026-11-21T17:51:19+10:00",
+    "agent": "coordinator",
+    "kind": "note",
+    "message": "First leads worker stalled on a permission prompt in smart mode; stopped it and added a project allow/deny list in .devin/config.json before relaunching all workers."
+  }
+]

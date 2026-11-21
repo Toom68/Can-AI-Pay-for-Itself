@@ -1,0 +1,11 @@
+private/
+node_modules/
+.devin/config.local.json
+.devin/mcp_config.local.json
+.env
+.env.*
+__pycache__/
+*.pyc
+*.tmp
+.council/
+leads/cache/
