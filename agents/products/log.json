@@ -1,0 +1,38 @@
+[
+  {
+    "ts": "2026-11-21T17:54:22+10:00",
+    "agent": "products",
+    "kind": "start",
+    "message": "Research 8+ hands-off product channels, rank by EV to A0 by Dec 21, build top pick to ready-to-list"
+  },
+  {
+    "ts": "2026-11-21T18:12:20+10:00",
+    "agent": "products",
+    "kind": "progress",
+    "message": "Repo/toolchain survey: no Rust (coordinator vetoed install - needs parent OK); VS2022+MSVC x64 present; Node26/Py3.13/requests available; cadence+4 other Toom68 repos have no licence file but Thomas owns copyright so paid builds are allowed"
+  },
+  {
+    "ts": "2026-11-21T18:12:20+10:00",
+    "agent": "products",
+    "kind": "decision",
+    "message": "Apify OSM-lead niche rejected as top pick: direct competitors have 1-6 monthly users (apifystats data); payout would land Dec 21-25 at best",
+    "data": {
+      "evidence": [
+        "https://apifystats.com/publishers/transparent_meteorite.html",
+        "https://mamoo85.github.io/open-data-actors/compare/openstreetmap-business-leads-vs-crawler-google-places.html"
+      ]
+    }
+  },
+  {
+    "ts": "2026-11-21T18:12:20+10:00",
+    "agent": "products",
+    "kind": "decision",
+    "message": "Top pick: chiptune sample pack on itch.io (+Bandcamp mirror) - instant PayPal payout, real browse traffic, fully agent-buildable with stdlib Python; pick 2: cadence paid build pending Rust toolchain approval"
+  },
+  {
+    "ts": "2026-11-21T18:13:11+10:00",
+    "agent": "products",
+    "kind": "progress",
+    "message": "Wrote products/research.md (14 channels evaluated with evidence) and products/plan.md (pick1: chiptune pack on itch+Bandcamp; pick2: cadence build runbook for parent)"
+  }
+]
