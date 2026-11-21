@@ -30,14 +30,14 @@ Deadline: 2026-12-21 | Target: US$200 (~A$310), internal A$400
 
 ## Token burn
 <!-- tokens:start -->
-_Updated 2026-11-21T18:14:06+10:00 by `python ops/tools/token_report.py` (JSON: `ops/tokens.json`)._
+_Updated 2026-11-21T18:15:30+10:00 by `python ops/tools/token_report.py` (JSON: `ops/tokens.json`)._
 
 | Agent | Model(s) | Calls | Input | Cached input | Output | Quota cost (US$) |
 |-------|----------|------:|------:|-------------:|-------:|-----------------:|
-| brand | swe-2-max (free) | 115 | 413k | 6.60M | 85k | 0.00 |
-| coordinator | claude-opus-5-5-xhigh | 177 | 511k | 31.45M | 221k | 12.74 |
+| brand | swe-2-max (free) | 123 | 415k | 7.45M | 89k | 0.00 |
+| coordinator | claude-opus-5-5-xhigh | 195 | 543k | 36.31M | 229k | 14.01 |
 | leads | swe-2-max (free), compactor | 118 | 922k | 10.46M | 111k | 0.00 |
-| products | swe-2-max (free) | 39 | 152k | 2.18M | 59k | 0.00 |
-| sitegen | swe-2-max (free) | 80 | 337k | 5.52M | 107k | 0.00 |
-| **Total** | | 529 | 2.33M | 56.21M | 583k | **12.74** |
+| products | swe-2-max (free) | 50 | 155k | 3.30M | 85k | 0.00 |
+| sitegen | swe-2-max (free) | 96 | 375k | 7.19M | 118k | 0.00 |
+| **Total** | | 582 | 2.41M | 64.70M | 632k | **14.01** |
 <!-- tokens:end -->
