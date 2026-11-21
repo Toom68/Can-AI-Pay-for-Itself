@@ -1,8 +1,8 @@
 {
-  "BRAND_NAME": "Studio Name",
-  "CONTACT_EMAIL": "hello@example.com",
+  "BRAND_NAME": "Brissie Sites",
+  "CONTACT_EMAIL": "brissiesites@gmail.com",
   "PRICE": "A$249",
-  "STUDIO_URL": "#",
+  "STUDIO_URL": "mailto:brissiesites@gmail.com",
   "LOCALE": "en_AU",
   "REGION": "Brisbane, QLD"
 }

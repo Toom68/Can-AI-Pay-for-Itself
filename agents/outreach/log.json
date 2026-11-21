@@ -1,0 +1,26 @@
+[
+  {
+    "ts": "2026-11-21T18:38:10+10:00",
+    "agent": "outreach",
+    "kind": "start",
+    "message": "Brand previews as Brissie Sites, QA 40 previews, capture screenshots, draft outreach batch-01"
+  },
+  {
+    "ts": "2026-11-21T18:38:41+10:00",
+    "agent": "outreach",
+    "kind": "progress",
+    "message": "Set brand in sitegen/config.json (Brissie Sites, brissiesites@gmail.com, A49, mailto STUDIO_URL); studio-site already branded"
+  },
+  {
+    "ts": "2026-11-21T18:44:01+10:00",
+    "agent": "outreach",
+    "kind": "decision",
+    "message": "Dropped pure-shot-cafe (renamed Groupheads and Grind Oct 2026, stale identity+email); fixed categoryLabel colon bug; recategorised sports/martial/nail/barber/laundromat leads; rewrote descriptor-only services fields; fixed village-deli hours separator and removed flowers-by-louise bare 'Mo-Sa' hours; added barber/florist/pet-grooming service sets and noun mappings",
+    "data": {
+      "dropped": [
+        "pure-shot-cafe"
+      ],
+      "built": 39
+    }
+  }
+]

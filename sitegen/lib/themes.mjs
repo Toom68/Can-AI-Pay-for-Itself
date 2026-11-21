@@ -290,7 +290,8 @@ const SERVICE_SETS = [
   [/landscap|garden/, ["Garden maintenance", "Lawn care & mowing", "Landscaping & makeovers", "Hedging & pruning"]],
   [/locksmith/, ["Lock repairs & rekeying", "Lockouts", "Security upgrades", "Key cutting"]],
   [/clean/, ["Regular cleans", "One-off & spring cleans", "Bond & end-of-lease cleans", "Office cleaning"]],
-  [/hair|barber/, ["Cuts & styling", "Colour & foils", "Blow waves & styling", "Treatments"]],
+  [/barber/, ["Haircuts & fades", "Beard trims & shaping", "Hot towel shaves", "Kids' cuts"]],
+  [/hair/, ["Cuts & styling", "Colour & foils", "Blow waves & styling", "Treatments"]],
   [/nail/, ["Manicures & pedicures", "Gel & acrylic nails", "Nail art", "Nail care"]],
   [/beauty|salon|wax|brow|lash|cosmetic|makeup/, ["Facials", "Waxing & tinting", "Brow & lash services", "Skin treatments"]],
   [/tattoo/, ["Custom designs", "Fine line work", "Cover-ups", "Consultations"]],
@@ -307,6 +308,8 @@ const SERVICE_SETS = [
   [/yoga|pilates/, ["Group classes", "Beginners welcome", "Private sessions", "Workshops"]],
   [/fitness|gym/, ["Gym access", "Group classes", "Personal training", "Fitness programs"]],
   [/vet/, ["Consultations", "Vaccinations", "Desexing & surgery", "Microchipping"]],
+  [/florist|flower/, ["Bouquets & arrangements", "Wedding & event flowers", "Indoor plants & gifts", "Same-day orders"]],
+  [/pet.?groom|groomer/, ["Grooming & clipping", "Wash & blow dry", "Nail trimming", "De-shedding tidy-ups"]],
 ];
 
 export function defaultServices(category) {
@@ -317,10 +320,15 @@ export function defaultServices(category) {
 
 export function categoryLabel(category) {
   if (!category) return "Local business";
-  const pretty = { car_repair: "Mechanic", physiotherapist: "Physiotherapy", fast_food: "Takeaway" };
-  const k = norm(category).replace(/\s+/g, "_");
+  const pretty = {
+    car_repair: "Mechanic", physiotherapist: "Physiotherapy", fast_food: "Takeaway",
+    cafe: "Café", nail_salon: "Nail salon", pet_grooming: "Pet grooming", tattoo: "Tattoo studio",
+    sports_club: "Sports club", martial_arts: "Martial arts", coffee: "Coffee roaster",
+  };
+  const base = norm(category).split(":").pop().trim();
+  const k = base.replace(/\s+/g, "_");
   if (pretty[k]) return pretty[k];
-  return norm(category).replace(/(^|\s)\w/g, m => m.toUpperCase()) || "Local business";
+  return base.replace(/(^|\s)\w/g, m => m.toUpperCase()) || "Local business";
 }
 
 // Natural-language noun for prose: "a local plumber", "your local bakery".
@@ -332,7 +340,7 @@ const NOUNS = [
   [/til/, "tiler"], [/fenc/, "fencing contractor"], [/air.?con/, "air conditioning team"],
   [/solar/, "solar installer"], [/glaz/, "glazier"], [/plaster/, "plasterer"], [/pool/, "pool shop"],
   [/barber/, "barber shop"], [/hair/, "hair studio"], [/nail/, "nail salon"],
-  [/beauty|cosmetic|lash|brow|wax|makeup/, "beauty salon"], [/tattoo/, "tattoo studio"], [/\bspa\b/, "day spa"],
+  [/tattoo/, "tattoo studio"], [/beauty|cosmetic|lash|brow|wax|makeup/, "beauty salon"], [/\bspa\b/, "day spa"],
   [/caf|coffee/, "café"], [/bake/, "bakery"], [/butcher/, "butcher shop"], [/deli/, "deli"],
   [/restaurant|thai|sushi|pizza|grill|bistro|diner|eatery/, "restaurant"],
   [/takeaway|take.?away|fast.?food|kebab|burger|fish|pies?/, "takeaway spot"],
@@ -345,8 +353,12 @@ const NOUNS = [
   [/health|wellness/, "clinic"], [/vet/, "vet clinic"], [/dental/, "dental practice"],
   [/optom/, "optometrist"], [/naturop|acupun/, "practice"],
   [/florist/, "florist"], [/bicycle|bike/, "bike shop"], [/pet.?groom/, "pet groomer"], [/pet/, "pet store"],
-  [/tailor/, "tailor"], [/dry.?clean|laundry/, "laundry"], [/photograph/, "photographer"],
+  [/tailor/, "tailor"], [/laundromat/, "laundromat"], [/dry.?clean|laundry/, "laundry"], [/photograph/, "photographer"],
   [/comput|phone|mobile|repair/, "repair shop"], [/jewel/, "jeweller"], [/print/, "print shop"],
+  [/shoe|cobbler/, "shoe repair shop"], [/upholster/, "upholstery workshop"],
+  [/hardware|tool/, "tool & hardware shop"],
+  [/martial|taekwondo|karate|judo|boxing/, "martial arts academy"],
+  [/sport|tennis|squash|sailing|bowls/, "sports club"],
 ];
 
 export function proseNoun(category) {
