@@ -109,5 +109,11 @@
     "data": {
       "real_previews": 40
     }
+  },
+  {
+    "ts": "2026-11-21T18:30:01+10:00",
+    "agent": "coordinator",
+    "kind": "decision",
+    "message": "Thomas confirmed target US$200 (A$310), approved Rust install, will set up itch.io himself. Installed rustup (stable MSVC, cargo 1.100.0) and sent the products worker the cadence build (binaries kept in private/). Removed the paid Pocket Chip Kit pack from the public repo going forward."
   }
 ]
