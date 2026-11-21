@@ -1,0 +1,24 @@
+Pocket Chip Kit — License
+
+Copyright (c) 2026 the Pocket Chip Kit authors.
+
+Purchase of this pack grants you a non-exclusive, worldwide, royalty-free
+license to:
+
+  - use every sound (WAV) and MIDI file in unlimited commercial and
+    non-commercial projects: video games, music, streams, video, apps;
+
+  - edit, process, pitch, stretch and layer the sounds inside your projects.
+
+You may NOT:
+
+  - resell, redistribute or share the pack itself, or any of its files,
+    as-is or as a competing sample pack, free or paid;
+
+  - claim the unmodified files as your own work.
+
+No attribution is required. Crediting "Pocket Chip Kit" is appreciated but
+optional.
+
+All sounds are original synthesizer output (square/pulse/triangle/LFSR noise
+voices) rendered by an algorithm — no copyrighted samples are used.

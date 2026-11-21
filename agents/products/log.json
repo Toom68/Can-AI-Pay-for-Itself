@@ -34,5 +34,16 @@
     "agent": "products",
     "kind": "progress",
     "message": "Wrote products/research.md (14 channels evaluated with evidence) and products/plan.md (pick1: chiptune pack on itch+Bandcamp; pick2: cadence build runbook for parent)"
+  },
+  {
+    "ts": "2026-11-21T18:15:59+10:00",
+    "agent": "products",
+    "kind": "result",
+    "message": "Built pocket-chip-kit: 82 WAVs + 12 MIDIs (84s audio), verify_pack.py PASS (0 failures), cover.png via headless Chrome, preview.html renders; zip 2.7MB ready to list",
+    "data": {
+      "wav": 82,
+      "midi": 12,
+      "zip_kb": 2776
+    }
   }
 ]
