@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="630" height="500" viewBox="0 0 630 500">
+  <defs><style>.px{shape-rendering:crispEdges}.t{font-family:'Courier New',monospace;font-weight:bold}</style></defs>
+  <rect width="630" height="500" fill="#14141f"/>
+  <!-- step-sequencer grid motif -->
+  <g class="px" opacity="0.35">
+    <rect x="70" y="290" width="30" height="30" fill="#ef476f"/><rect x="110" y="290" width="30" height="30" fill="none" stroke="#2c2c3c"/>
+    <rect x="150" y="290" width="30" height="30" fill="none" stroke="#2c2c3c"/><rect x="190" y="290" width="30" height="30" fill="#ef476f"/>
+    <rect x="230" y="290" width="30" height="30" fill="none" stroke="#2c2c3c"/><rect x="270" y="290" width="30" height="30" fill="none" stroke="#2c2c3c"/>
+    <rect x="310" y="290" width="30" height="30" fill="#ef476f"/><rect x="350" y="290" width="30" height="30" fill="none" stroke="#2c2c3c"/>
+    <rect x="390" y="290" width="30" height="30" fill="#ef476f"/><rect x="430" y="290" width="30" height="30" fill="none" stroke="#2c2c3c"/>
+    <rect x="470" y="290" width="30" height="30" fill="none" stroke="#2c2c3c"/><rect x="510" y="290" width="30" height="30" fill="#ef476f"/>
+    <rect x="70" y="330" width="30" height="30" fill="none" stroke="#2c2c3c"/><rect x="110" y="330" width="30" height="30" fill="#7ee787"/>
+    <rect x="150" y="330" width="30" height="30" fill="none" stroke="#2c2c3c"/><rect x="190" y="330" width="30" height="30" fill="none" stroke="#2c2c3c"/>
+    <rect x="230" y="330" width="30" height="30" fill="#7ee787"/><rect x="270" y="330" width="30" height="30" fill="none" stroke="#2c2c3c"/>
+    <rect x="310" y="330" width="30" height="30" fill="none" stroke="#2c2c3c"/><rect x="350" y="330" width="30" height="30" fill="#7ee787"/>
+    <rect x="390" y="330" width="30" height="30" fill="none" stroke="#2c2c3c"/><rect x="430" y="330" width="30" height="30" fill="none" stroke="#2c2c3c"/>
+    <rect x="470" y="330" width="30" height="30" fill="#7ee787"/><rect x="510" y="330" width="30" height="30" fill="none" stroke="#2c2c3c"/>
+    <rect x="70" y="370" width="30" height="30" fill="none" stroke="#2c2c3c"/><rect x="110" y="370" width="30" height="30" fill="none" stroke="#2c2c3c"/>
+    <rect x="150" y="370" width="30" height="30" fill="#118ab2"/><rect x="190" y="370" width="30" height="30" fill="none" stroke="#2c2c3c"/>
+    <rect x="230" y="370" width="30" height="30" fill="none" stroke="#2c2c3c"/><rect x="270" y="370" width="30" height="30" fill="#118ab2"/>
+    <rect x="310" y="370" width="30" height="30" fill="none" stroke="#2c2c3c"/><rect x="350" y="370" width="30" height="30" fill="none" stroke="#2c2c3c"/>
+    <rect x="390" y="370" width="30" height="30" fill="none" stroke="#2c2c3c"/><rect x="430" y="370" width="30" height="30" fill="#118ab2"/>
+    <rect x="470" y="370" width="30" height="30" fill="none" stroke="#2c2c3c"/><rect x="510" y="370" width="30" height="30" fill="none" stroke="#2c2c3c"/>
+  </g>
+  <!-- piano-roll accent -->
+  <g class="px" fill="#ffd23e" opacity="0.9">
+    <rect x="90" y="230" width="60" height="14"/><rect x="170" y="216" width="90" height="14"/>
+    <rect x="290" y="244" width="60" height="14"/><rect x="380" y="202" width="110" height="14"/><rect x="510" y="230" width="50" height="14"/>
+  </g>
+  <text x="315" y="120" text-anchor="middle" class="t" font-size="68" fill="#ffd23e">CADENCE</text>
+  <text x="315" y="168" text-anchor="middle" class="t" font-size="22" fill="#e8e8f0">CHIPTUNE MUSIC STUDIO</text>
+  <text x="315" y="450" text-anchor="middle" class="t" font-size="17" fill="#7ee787">STEP SEQUENCER &#183; 202 SOUNDS &#183; WAV/MIDI</text>
+  <g class="px" fill="#ef476f">
+    <rect x="30" y="30" width="12" height="12"/><rect x="588" y="30" width="12" height="12"/>
+    <rect x="30" y="458" width="12" height="12"/><rect x="588" y="458" width="12" height="12"/>
+  </g>
+</svg>

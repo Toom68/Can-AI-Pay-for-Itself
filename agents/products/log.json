@@ -51,5 +51,21 @@
     "agent": "products",
     "kind": "done",
     "message": "Task complete: research.md (14 channels, evidence-linked), plan.md (pick1 pocket-chip-kit itch+Bandcamp US.99 PWYW ready-to-list; pick2 cadence build runbook blocked on rustup approval), pack built+verified (82 wav+12 mid, zip 2.7MB). Parent must: create itch account, connect PayPal, upload zip+copy (~20min). Optional Bandcamp/Gumroad mirrors. Combined P(>=A0 by Dec21) ~10-16% if cadence also ships, ~7-12% pack alone."
+  },
+  {
+    "ts": "2026-11-21T18:30:33+10:00",
+    "agent": "products",
+    "kind": "start",
+    "message": "Execute plan.md pick 2: build cadence release for Windows in private/cadence (read-only clone), package zip -> private/products/cadence, smoke test exe, commit listing assets under products/cadence"
+  },
+  {
+    "ts": "2026-11-21T18:36:26+10:00",
+    "agent": "products",
+    "kind": "result",
+    "message": "cadence 1.1.0 release build OK (2m10s): --version/list-instruments OK, --render-demo wrote 18.5s WAV (3.9MB) in 0.81s, GUI launched 'Afterglow - Cadence' Responding=True, window-only screenshot captured via PrintWindow, process closed cleanly",
+    "data": {
+      "zip_bytes": 4075908,
+      "exe_bytes": 10135040
+    }
   }
 ]
