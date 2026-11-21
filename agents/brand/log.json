@@ -1,0 +1,23 @@
+[
+  {
+    "ts": "2026-11-21T17:54:02+10:00",
+    "agent": "brand",
+    "kind": "start",
+    "message": "Plan: 8 name candidates w/ evidence (GitHub/domain/ABN), kit+logo for top pick, studio one-pager, sales kit, verify at 375/1280px"
+  },
+  {
+    "ts": "2026-11-21T17:57:01+10:00",
+    "agent": "brand",
+    "kind": "decision",
+    "message": "Dropped bilbyweb (com.au registered + 'BILBY WEB PAGE DESIGN SERVICE' trading name) and banksiaweb ('BANKSIA WEB' active business name + com.au registered); stormbird saturated",
+    "data": {
+      "bilbyweb_comau": 200,
+      "banksiaweb_comau": 200,
+      "abn_conflicts": {
+        "banksia web": "BANKSIA WEB active BN",
+        "bilby web": "BILBY WEB PAGE DESIGN SERVICE"
+      },
+      "stormbird_abn_results": 1309
+    }
+  }
+]
