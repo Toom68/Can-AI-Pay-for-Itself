@@ -33,7 +33,12 @@ Deadline: 2026-12-21 | Target: US$200 (~A$310), internal A$400
   GitHub org on hold; agents push once per task only. First emails use **screenshots** of each
   preview; live previews are hosted only for businesses that reply.
 
+- 2026-11-21: cadence 1.1.0 Windows build + listing ready (`products/cadence/`), but **on hold**:
+  Thomas is improving cadence first. When he's done: re-clone into `private/cadence`, rebuild
+  with the repo's `windows-package.ps1`, smoke-test, refresh the zip/screenshot/LISTING.md.
+
 ## Waiting on Thomas
+- [ ] Finish cadence changes, then tell the coordinator to rebuild + list it.
 - [ ] itch.io payments: link a parent's PayPal for "Direct to you" payouts.
 - [ ] GitHub org `brissiesites` once the restriction lifts (for hosting live previews).
 - [ ] Send outreach batch 01 (10 emails) when the drafts are ready.
