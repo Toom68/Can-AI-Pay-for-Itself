@@ -62,7 +62,9 @@ Several workers share ONE worktree and ONE local branch, which pushes to `main`.
 - Commit ONLY your own paths, listing them after `--` so other workers' staged files are never
   swept into your commit:
   `git add <your paths> agents/<name> && git commit -m "<name>: <what and why>" -- <your paths> agents/<name>`
-- Push with exactly: `git push origin HEAD:main`
+- Push with exactly: `git push origin HEAD:main`, but ONLY when you finish your task (or at
+  most once an hour). GitHub flagged Thomas's network for automated activity on 2026-11-21:
+  keep GitHub traffic low (no polling, no bulk `gh api` calls, no repeated pushes).
 - Never `git add -A`, `git add .`, `git commit -a`, force-push, rebase, reset, or rewrite history.
 - If git reports `index.lock`, "cannot lock ref", or a rejected push, another worker is
   mid-operation: wait 10 seconds and retry (up to 5 times). Never delete lock files.

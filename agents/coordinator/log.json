@@ -115,5 +115,11 @@
     "agent": "coordinator",
     "kind": "decision",
     "message": "Thomas confirmed target US$200 (A$310), approved Rust install, will set up itch.io himself. Installed rustup (stable MSVC, cargo 1.100.0) and sent the products worker the cadence build (binaries kept in private/). Removed the paid Pocket Chip Kit pack from the public repo going forward."
+  },
+  {
+    "ts": "2026-11-21T18:38:11+10:00",
+    "agent": "coordinator",
+    "kind": "decision",
+    "message": "Brand Brissie Sites + brissiesites@gmail.com confirmed. GitHub restricted Thomas's account for automated activity: agents now push once per task. First outreach uses screenshots; launched outreach worker (task_87853c5a4bd8) to brand previews, screenshot them and draft batch 01."
   }
 ]

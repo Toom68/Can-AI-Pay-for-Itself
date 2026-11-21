@@ -28,10 +28,15 @@ Deadline: 2026-12-21 | Target: US$200 (~A$310), internal A$400
 - 2026-11-21: target confirmed **US$200 (A$310)**. Rust toolchain install approved (for cadence
   builds). Thomas sets up itch.io himself (payouts must go to a parent's PayPal: 18+).
 
+- 2026-11-21: brand **Brissie Sites**, email **brissiesites@gmail.com** (working). itch.io
+  account created (payments not yet). GitHub flagged Thomas's network for automated activity:
+  GitHub org on hold; agents push once per task only. First emails use **screenshots** of each
+  preview; live previews are hosted only for businesses that reply.
+
 ## Waiting on Thomas
-- [ ] Confirm brand **Brissie Sites** and create `brissiesites@gmail.com` (fallback
-      `hello.brissiesites@gmail.com`) + GitHub org `brissiesites`; tell coordinator the result.
-- [ ] Create the itch.io account; link a parent's PayPal for "Direct to you" payouts.
+- [ ] itch.io payments: link a parent's PayPal for "Direct to you" payouts.
+- [ ] GitHub org `brissiesites` once the restriction lifts (for hosting live previews).
+- [ ] Send outreach batch 01 (10 emails) when the drafts are ready.
 - [ ] Coordinator cost: switch this session to `/model swe-2-max` for routine supervision?
 - [ ] Before the first invoice: register the brand name (~A$44/yr + free ABN) or invoice in
       own name.
