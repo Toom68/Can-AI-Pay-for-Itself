@@ -94,5 +94,11 @@
     "agent": "coordinator",
     "kind": "result",
     "message": "brand worker done: recommends Brissie Sites (alternates Jacaranda Web, Bunya Web); studio site + 7 sales files complete. Awaiting Thomas's pick."
+  },
+  {
+    "ts": "2026-11-21T18:16:35+10:00",
+    "agent": "coordinator",
+    "kind": "result",
+    "message": "products worker done: Pocket Chip Kit (82 WAV + 12 MIDI chiptune pack) ready to list on itch.io; worker estimates ~7-12% odds of meaningful sales this month. Needs a parent-owned itch.io + PayPal account. cadence build blocked pending Rust install approval."
   }
 ]
